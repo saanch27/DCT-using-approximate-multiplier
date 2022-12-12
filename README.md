@@ -6,7 +6,8 @@ Pipelined approach uses 7,5,3 as approximation bits in each stage.
 Pipelined approach gave us lesser error than non-pipelined so we implemented DCT through pipelined approach.
 
 Following formulae were used for DCT calculation:
-Y0=[(x0+x7)+(x1+x6)+(x2+x5)+(x3+x4)]*C0 = x0*C0+x1*C0+x2*C0+x3*C0+x4*C0+x5*C0+x6*C0+x7*C0
+
+Y0 = [(x0+x7)+(x1+x6)+(x2+x5)+(x3+x4)]*C0 = x0*C0+x1*C0+x2*C0+x3*C0+x4*C0+x5*C0+x6*C0+x7*C0
 
 Y1=[x0-x7]*C1+[x1-x6]*C3+[x2-x5]*C5+[x3-x4]*C7=[s0_7]*C1+[s1_6]*C3+[s2_5]*C5+[s3_4]*C7
 
