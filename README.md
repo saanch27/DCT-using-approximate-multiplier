@@ -31,7 +31,7 @@ C0 = 1/2 * cos(π/4),      C1 = 1/2 * cos(π/16),      C2 = 1/2 * cos(2π/16),  
 
 C4 = 1/2 * cos(4π/16),    C5 = 1/2 * cos(5π/16),     C6 = 1/2 * cos(6π/16),      C7 = 1/2 * cos(7π/16).
 
-All the above coefficients were represented in 8 bit binary in Q0.7 format i.e. 8th bit for integer and last 7 bits for fractional parts.
+All the above coefficients were represented in 8 bit binary in Q0.7 format i.e. 8th bit for integer and last 7 bits for fractional parts. In the final multiplier product of 16 bits, last 7 bits will represent fractional parts.
 Hence:
 
      C0 = 8'b01011010; //  cos(4pi/16) => 0.70710678118
