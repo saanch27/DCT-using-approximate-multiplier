@@ -5,6 +5,8 @@ In both the multipliers, approximate reverse adders were used.
 Pipelined approach uses 7,5,3 as approximation bits in each stage.
 Pipelined approach gave us lesser error than non-pipelined so we implemented DCT through pipelined approach.
 
+We also did Asic and FPGA flows of both pipelined and nonpipelined architechtures. Reports are added in the directory.
+
 Following formulae were used for DCT calculation:
 
 Y0 = [(x0+x7)+(x1+x6)+(x2+x5)+(x3+x4)]*C0 = x0*C0+x1*C0+x2*C0+x3*C0+x4*C0+x5*C0+x6*C0+x7*C0
