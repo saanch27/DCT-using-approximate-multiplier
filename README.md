@@ -33,6 +33,7 @@ C4 = 1/2 * cos(4π/16),    C5 = 1/2 * cos(5π/16),     C6 = 1/2 * cos(6π/16),  
 
 All the above coefficients were represented in 8 bit binary in Q0.7 format i.e. 8th bit for integer and last 7 bits for fractional parts.
 Hence:
+
      C0 = 8'b01011010; //  cos(4pi/16) => 0.70710678118
      
      C1 = 8'b01111100; //  cos(1pi/16) => 0.9807852804
